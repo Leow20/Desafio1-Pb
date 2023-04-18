@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 320px){
+    .df1-page-wrapper{
+        width: 100%;
+        height: 100vh;
+        background-color: #060809;
+    }
+
+    .df1-topbar{
+        width: 100%;
+        height: 85px;
+        display: block;
+        background-color: #060809;
+        position: relative;
+        left: 0;
+    }
+
+    .df1-logo{
+        width: 134px;
+        height: 32px;
+        float: left;
+        margin-left: 112px;
+        margin-top: 24px;
+    }
+
+    .df1-menu{
+        display: none;
+    } 
+        
+
+}
+
+@media screen and (min-width: 992px){
+    .df1-menu{
+        display: table;
+        float: left;
+        height: 110px;
+    }
+
+    .df1-menu a{
+        padding: 0 32px 0 0;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 28px;
+        font-weight: 500;
+        position: relative;
+        line-height: 24px;
+    }
+
+    .df1-menu a:first-child{
+        margin-left: 40px;
+    }
+
+    .df1-login a{
+        display: inline-block;
+        padding-left: 48px;
+        position: absolute;
+        right: 108px;
+        top: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .df1-login a:first-child{
+        right: 235px;
+        top: 28px;
+    }
+
+    #df1-btn-singup{
+        display: block;
+      
+        color: #383A47;
+        padding: 10px 18px 10px 18px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+ 
+}
+
+@media screen and (min-width: 320px){
+    
+}
+
+
+
+
+
+/*BOTÕES*/
+
+.df1-btn{
+    display: table;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: all 0.2s ease-out;
+}
+
+.df1-btn-block{
+    display: block;
+    width: 100%;
+}
+
+.df1-btn-medium{
+    height: 38px;
+    padding: 0 27px;
+    border-radius: 19px;
+    font-size: 14px;
+}
+
+.df1-btn-large{
+    height: 45px;
+    padding: 0 35px;
+    border-radius: 23px;
+    font-size: 16px;
+}
+
+
+.df1-btn-green{
+    background-color: #2ccb69;
+    color: #1c1c1c;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.df1-btn-green:hover{
+    background-color: #1a8a45;
+    color: #fff;
+    transform: translateY(3px);
+}
+
+.df1-btn-dark{
+    background-color: #151515;
+    color: #2ccb69;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.df1-btn-dark:hover{
+    background-color: #515351;
+    color: #fff;
+}
+
+
+/* CLASSES UTILITARIA*/
+
+.df1-title{
+    font-family: 'Abril FatFace', serif;
+    font-weight: normal;
+}
+
+.df1-mar-15{
+    margin: 15px;
+}
+
+.df1-mar-top-15{
+    margin-top: 15px;
+}
+
+.df1-mar-right-15{
+    margin-right: 15px;
+}
+
+.df1-mar-bot-15{
+    margin-bottom: 15px;
+}
+
+.df1-mar-left-15{
+    margin-left: 15px;
+}
+
+.df1-pad-15{
+    padding: 15px;
+}
+
+.df1-pad-top-15{
+    padding-top: 15px;
+}
+
+.df1-pad-right-15{
+    padding-right: 15px;
+}
+
+.df1-pad-bot-15{
+    padding-bottom: 15px;
+}
+
+.df1-pad-left-15{
+    padding-left: 15px;
+}
+
+.df1-full-height{
+    height: 100vh;
+}
+
+.df1-first-section{
+    height: calc(100hv - 30px);
+}
+
+.df1-text-sat{
+    font-family: 'Satoshi', sans-serif;
+}
+
+.df1-text-inter{
+    font-family: 'Inter', sans-serif;
+}
+
+/* CLASSES COMPORTAMENTO*/
+
+.df1-is-open{
+    display: block;
+}
+
+.df1-changeicon{
+    background-position-y: -45px;
+}
+
+.df1-fade-out{
+    animation: fadeOut 2s forwards ease-out;
+}
+

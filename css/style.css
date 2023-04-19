@@ -56,6 +56,7 @@
         border-radius: 16px;
         background-color: #f7f5ff;
         font-size: 14px;
+        cursor: pointer;
     }
 
     .df1-box-new{
@@ -193,8 +194,6 @@
     /*---Center---*/
 
     .df1-center-text{
-        display: flex;
-        justify-content: center;
         margin-top: 252px;
     }
     
@@ -204,7 +203,51 @@
         margin-top: 32px;
     }
     
-    /*-----Section 2-------*/
+    /*--------SECTION 2--------*/
+
+    .df1-tittle-section2{
+        margin-top: 153px;
+        justify-content: space-around;
+    }
+    
+    .df1-span-section{
+        padding-left: 10px;
+    }
+
+    .df1-grid{
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        flex-wrap: wrap;
+    }
+
+    .df1-horGrid{
+        width: 843px;
+        margin-top: 52px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .df1-box1{
+        width: 407px;
+        height: 316px;
+        border-radius: 24px;
+        background-color: #1B1C20;
+        margin-bottom: 28px;
+    }
+
+    .df1-box2{
+        width: 408px;
+        height: 660px;
+        border-radius: 24px;
+        background-color: #1B1C20;
+        margin-top: 52px;
+        margin-left: 8px;
+        
+    }
+
+
 }
 
 @media screen and (min-width: 992px){
@@ -464,6 +507,15 @@
     color: #e7e7e7;
 }
 
+.df1-tittle-grid {
+    font-weight: 400;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
 
 .df1-text-black{
     color: #1B1C20;
@@ -477,9 +529,16 @@
     height: 100vh;
 }
 
-
-
 /* CLASSES COMPORTAMENTO*/
+
+.df1-cursor-pointer{
+    cursor: pointer;
+}
+
+.df1-flex-center{
+    display: flex;
+    justify-content: center;
+}
 
 .df1-is-open{
     display: block;

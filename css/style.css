@@ -8,14 +8,14 @@
 
 @media screen and (min-width: 320px){
     .df1-page-wrapper{
-        width: 100%;
+        width: 1440px;
         height: 100vh;
         background-color: #060809;
         display: table;
     }
 
     .df1-topbar{
-        width: 100%;
+        width: 1440px;
         height: 85px;
         display: block;
         background-color: #060809;
@@ -35,9 +35,176 @@
     .df1-menu{
         display: none;
     } 
+
+    .df1-login a{
+        display: none;
+    } 
         
     /*---------HOME---------*/
 
+    .df1-first-section{
+        display: flex;
+    }
+
+    .df1-box-refer{
+        width: 257px;
+        height: 32px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 16px;
+        background-color: #f7f5ff;
+        font-size: 14px;
+    }
+
+    .df1-box-new{
+        width: 53px;
+        height: 24px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+     
+        justify-content: space-around;
+        border-radius: 16px;
+        background-color: #7f56d9;
+    }
+
+    .df1-display-text{
+       width: 489px;
+       display: table;
+       margin: 252px 0 0 112px;
+    }
+    
+
+    .df1-card{
+        display: flex;
+        justify-content: end;
+        width: 605px;
+        margin: 144px 112px 0 122px;
+        position: relative;
+    }
+
+
+    .df1-visacard{
+        width: 343px;
+        height: 80px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        font-size: 14px;
+        margin: 0 31px 0 0;
+        position: relative;
+    }
+
+    #df1-logo-mastercard{
+        position: absolute;
+        display: inline-block;
+        top: 31px;
+        left: 20px;
+        line-height: 7px;
+    }
+
+    .df1-text-visa{
+        margin: 7px 0 0 65px;
+        width: 130px;
+    }
+
+    .df1-text-visa:first-child{
+        margin-top: 17px;
+    }
+   
+    .df1-valor-visa{
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    .df1-big-card{
+        width: 547px;
+        height: 334px;
+        position: absolute;
+        right: 0;
+        top: 168px;
+        border-radius: 16px;
+        background-color: #FFFFFF;
+    }
+
+    .df1-content-images{
+        position: absolute;
+        right: 31px;
+        top: 14px
+    }
+
+    .df1-debitCard{
+        position: absolute;
+        left: -148px;
+        top: 90px;
+    }
+
+    .df1-logo2{
+        position: absolute;
+        left: 69px;
+        bottom: 42px;
+    }
+
+    .df1-textPay{
+        color: #a0aec0;
+        position: absolute;
+        left: 90px;
+        bottom: 76px;
+        text-align: center;
+        line-height: 16px;
+        letter-spacing: 0.08em;
+    }
+
+    .df1-iconCard{
+        position: absolute;
+        left: 250px;
+        top:  101px;
+        z-index: 500;
+    }
+
+    .df1-iconChecked{
+        position: absolute;
+        left: 96px;
+        bottom: -54px;
+        z-index: 500;
+    }
+
+    .df1-pinkBox{
+        width: 195px;
+        height: 106px;
+        border-radius: 0 0 8px 8px;
+        position: absolute;
+        left: 100px;
+        bottom: -102px;
+        background-color: #EBBCAD;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .df1-textPinkCard{
+        font-size: 40px;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    /*---Center---*/
+
+    .df1-center-text{
+        display: flex;
+        justify-content: center;
+        margin-top: 252px;
+    }
+    
+    .df1-logos-center{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 32px;
+    }
+    
+    /*-----Section 2-------*/
 }
 
 @media screen and (min-width: 992px){
@@ -137,12 +304,6 @@
     }
 
 }
-
-@media screen and (min-width: 320px){
-    
-}
-
-
 
 
 
@@ -265,9 +426,27 @@
     font-weight: 700;
 }
 
+.df1-tittle-big{
+    font-size: 44px;
+    line-height: 60px;
+}
+
 .df1-text-regular{
     font-weight: 500;
 }
+
+.df1-text-size-12{
+    font-size: 12px;
+}
+
+.df1-text-size-20{
+    font-size: 20px;
+}
+
+.df1-text-size-15{
+    font-size: 15px;
+}
+
 
 .df1-text-white{
     color: #FFFFFF;
@@ -278,7 +457,16 @@
 }
 
 .df1-text-gray{
-    color: #b8b8b8;
+    color: #797B89;
+}
+
+.df1-text-softgray{
+    color: #e7e7e7;
+}
+
+
+.df1-text-black{
+    color: #1B1C20;
 }
 
 .df1-text-light{
@@ -288,6 +476,8 @@
 .df1-full-height{
     height: 100vh;
 }
+
+
 
 /* CLASSES COMPORTAMENTO*/
 

@@ -19,8 +19,9 @@
         height: 85px;
         display: block;
         background-color: #060809;
-        position: relative;
+        position: fixed;
         left: 0;
+        z-index: 2000;
     }
 
     .df1-logo{
@@ -211,7 +212,7 @@
     }
     
     .df1-span-section{
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     .df1-grid{
@@ -219,6 +220,7 @@
         margin-left: 80px;
         margin-right: 80px;
         flex-wrap: wrap;
+        background-color: rgb(0, 166, 255);
     }
 
     .df1-horGrid{
@@ -227,6 +229,8 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        background-color: red;
+
     }
 
     .df1-box1{
@@ -244,6 +248,7 @@
         background-color: #1B1C20;
         margin-top: 52px;
         margin-left: 8px;
+        padding-top: 1px;
         
     }
 
@@ -516,6 +521,17 @@
     margin-top: 40px;
 }
 
+.df1-text-grid{
+    width: 277px;
+    font-weight: 400;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    margin-left: 70px;
+    margin-right: 0;
+    padding-top: 20px;
+}
 
 .df1-text-black{
     color: #1B1C20;

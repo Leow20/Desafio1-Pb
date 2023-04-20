@@ -41,7 +41,7 @@
         display: none;
     } 
         
-    /*---------HOME---------*/
+    /*---------SECTION 1---------*/
 
     .df1-first-section{
         display: flex;
@@ -215,12 +215,15 @@
         padding-left: 5px;
     }
 
+    .df1-span-section10{
+        padding-left: 10px;
+    }
+
     .df1-grid{
         display: flex;
         margin-left: 80px;
         margin-right: 80px;
         flex-wrap: wrap;
-        background-color: rgb(0, 166, 255);
     }
 
     .df1-horGrid{
@@ -229,7 +232,6 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        background-color: red;
 
     }
 
@@ -252,6 +254,77 @@
         
     }
 
+    /*------SECTION 3-------*/
+    .df1-big-card-gray{
+        width: 1280px;
+        height: 671px;
+        border-radius: 26px;
+        margin: 192px 80px 154px 80px;
+        background-color: #1B1C20;      
+        position: relative;
+        z-index: 100;
+    }
+
+    
+    #df1-text-subtittle{
+        width: 478px;
+        margin-left: 32px;
+        font-size: 20px;
+        color: #B8B8B8;
+        position: relative;
+        z-index: 500;
+    }
+
+    .df1-btn{
+        width: 163px;
+        height: 56px;
+        display: flex;
+        position: absolute;
+        text-align: center;
+        font-weight: 600;
+        transition: all 0.2s ease-out;
+        background-color: #FFFFFF;
+        padding: 15px 26px 16px 28px;
+        border-radius: 405px;
+        margin-top: 100px;
+        margin-left: 32px;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 600;
+    
+    }
+
+    .df1-card-container{
+        position: absolute;
+        top: 0;
+        z-index: 100;
+    }
+    
+    #df1-textsize{
+        margin-left: 32px;
+        padding-top: 109px;
+        width: 432px;
+    }
+    /*----FOOTER----*/
+
+    .df1-footer{
+        width: 1440px;
+        height: 128px;
+        display: block;
+        
+        background-color: #060809;
+    }
+
+    .df1-icons-footer{
+        padding-left: 112px;
+        padding-top: 48px;
+    }
+
+    .df1-cadena-footer{
+        display: inline;
+        padding-left: 200px;
+        padding-right: 240px;
+    }
 
 }
 
@@ -344,6 +417,7 @@
         border-radius: 8px;
         background-color: #FFFFFF;
         transition: all .2s ease-in-out;
+        z-index: 5000;
     }
 
     #df1-btn-singup:hover{
@@ -357,66 +431,17 @@
 
 /*BOTÕES*/
 
-.df1-btn{
-    display: table;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    border: none;
-    transition: all 0.2s ease-out;
-}
-
-.df1-btn-block{
-    display: block;
-    width: 100%;
-}
-
-.df1-btn-medium{
-    height: 38px;
-    padding: 0 27px;
-    border-radius: 19px;
-    font-size: 14px;
-}
-
-.df1-btn-large{
-    height: 45px;
-    padding: 0 35px;
-    border-radius: 23px;
-    font-size: 16px;
-}
 
 
-.df1-btn-green{
-    background-color: #2ccb69;
-    color: #1c1c1c;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
-.df1-btn-green:hover{
-    background-color: #1a8a45;
-    color: #fff;
-    transform: translateY(3px);
-}
-
-.df1-btn-dark{
-    background-color: #151515;
-    color: #2ccb69;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
-.df1-btn-dark:hover{
-    background-color: #515351;
-    color: #fff;
+.df1-image-setinha{
+    width: 7px;
+    height: 12px;
+    margin-bottom: 18px;
+    margin-left: 10px;
 }
 
 
 /* CLASSES UTILITARIA*/
-
-.df1-title{
-    font-family: 'Abril FatFace', serif;
-    font-weight: normal;
-}
-
 .df1-mar-15{
     margin: 15px;
 }
@@ -443,6 +468,9 @@
 
 .df1-pad-top-15{
     padding-top: 15px;
+}
+.df1-pad-top-30{
+    padding-top: 30px;
 }
 
 .df1-pad-right-15{
@@ -495,6 +523,17 @@
     font-size: 15px;
 }
 
+.df1-align-images-grid{
+    margin-left: 153px;
+}
+.df1-align-images-grid2{
+    margin-left: 54px;
+    margin-top: 85px ;
+}
+
+#df1-align-images-grid{
+    margin-left: 121px;
+}
 
 .df1-text-white{
     color: #FFFFFF;
@@ -512,6 +551,10 @@
     color: #e7e7e7;
 }
 
+.df1-text-gray2{
+    color: #B8B8B8;
+}
+
 .df1-tittle-grid {
     font-weight: 400;
     font-family: 'Satoshi', sans-serif;
@@ -520,6 +563,7 @@
     color: #FFFFFF;
     margin-top: 40px;
 }
+
 
 .df1-text-grid{
     width: 277px;
@@ -531,6 +575,12 @@
     margin-left: 70px;
     margin-right: 0;
     padding-top: 20px;
+}
+
+.df1-text-grid-visa{
+    width: 250px;
+    font-size: 18px;
+    margin-left: 80px;
 }
 
 .df1-text-black{

@@ -8,15 +8,15 @@
 
 @media screen and (min-width: 320px){
     .df1-page-wrapper{
-        width: 1440px;
+        width: 375px;
         height: 100vh;
-        background-color: #060809;
         display: table;
+        background-color: #060809;
     }
 
     .df1-topbar{
-        width: 1440px;
-        height: 85px;
+        width: 375px;
+        height: 58px;
         display: block;
         background-color: #060809;
         position: fixed;
@@ -28,56 +28,336 @@
         width: 134px;
         height: 32px;
         float: left;
-        margin-left: 112px;
-        margin-top: 24px;
+        margin-left: 20px;
+        margin-top: 14px;
         cursor: pointer;
     }
-
+   
     .df1-menu{
         display: none;
     } 
 
     .df1-login a{
         display: none;
-    } 
+    }   
+
+    .df1-menu-hamb{
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+        /*---------SECTION 1------*/
+            
+        .df1-first-section{
+            display: flex;
+        }
+
+        .df1-display-text{
+            width: 335px;
+            font-size: 32px;
+            line-height: 43px;
+            display: table;
+            margin: 108px 0 0 20px;
+        }
+
+        #df1-text-size{
+            font-size: 32px;
+        }
+
+        .df1-box-refer{
+            width: 257px;
+            height: 32px;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 16px;
+            background-color: #f7f5ff;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+            margin-bottom: 16px;
+        }
+
+        .df1-box-refer:hover{
+            transform: translateX(5px);
+        }
+
+        .df1-box-new{
+            width: 53px;
+            height: 24px;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 16px;
+            background-color: #7f56d9;
+        }
+
+        .df1-appStore{
+            width: 142px;
+            height: 50px;
+            display: inline-block;
+            margin-top: 32px;
+            transition: all .2s ease-in-out;
+        }
+
+        .df1-playStore{
+            width: 142px;
+            height: 50px;
+            display: inline-block;
+            margin-left: 20px;
+            margin-top: 32px;
+            transition: all .2s ease-in-out;
+        }
+
+        .df1-appStore:hover{
+            transform: translateY(3px);
+        }
+    
+        .df1-playStore:hover{
+            transform: translateY(3px);
+        }
+
+        .df1-text-subtittle{
+            margin-top: 16px;
+            font-size: 16px;
+        }
+
+        .df1-card{
+            display: none;
+        }
+
+        .df1-image-cards{
+           margin-top: 70px;
+           margin-bottom: 60px;
+        }
+
+
+        /*-------CENTER-------*/
+
+    .df1-center-text{
+        margin-top: 70px;
+        display: flex;
+        justify-content: star;
+        margin: auto 53px;
+    }
         
-    /*---------SECTION 1---------*/
-
-    .df1-first-section{
+    .df1-logos-center{
+        width: 375px;
         display: flex;
-    }
-
-    .df1-box-refer{
-        width: 257px;
-        height: 32px;
-        display: flex;
-        flex-wrap: nowrap;
         align-items: center;
-        justify-content: space-around;
-        border-radius: 16px;
-        background-color: #f7f5ff;
-        font-size: 14px;
-        cursor: pointer;
+        flex-wrap: wrap;
+        margin: 25px 22px 0 20px;
+   }
+
+    #df1-Stripe{
+        width: 42px;
+        height: 18px;
+        margin-right: 54px ;
     }
 
-    .df1-box-new{
-        width: 53px;
-        height: 24px;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-     
-        justify-content: space-around;
-        border-radius: 16px;
-        background-color: #7f56d9;
-    }
-
-    .df1-display-text{
-       width: 489px;
-       display: table;
-       margin: 252px 0 0 112px;
+    #df1-Orfium{
+        width: 90px;
+        height: 17px;
+        margin-right: 57px ;
     }
     
+    #df1-Kinstae{
+        width: 88px;
+        height: 17px;
+    }
+
+    #df1-Bankable{
+        width: 103px;
+        height: 17px;
+        margin-top: 25px;
+        
+    }
+    
+    #df1-Nowsports{
+        width: 79px;
+        height: 17px;
+        margin-top: 25px;
+        margin-right: 61px;
+        margin-left: 60px;
+    }
+
+    .dfi-align-tittle{
+        width: 335px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 130px;
+        align-content: center;
+    }
+
+    .df1-tittle-section2{
+        font-size: 20px;
+    }
+  
+}
+
+
+
+
+
+@media screen and (min-width: 992px){
+   
+    .df1-page-wrapper{
+        width: 1440px;
+    }
+ 
+    /*---------TOPBAR-----------*/
+    .df1-topbar{
+        width: 1440px;
+        height: 85px;
+    }
+  
+    .df1-logo{
+        width: 134px;
+        height: 32px;
+        float: left;
+        margin-left: 112px;
+        margin-top: 24px;
+        cursor: pointer;
+    }
+  
+    .df1-menu-hamb{
+        display: none;   
+    }
+
+    .df1-menu{
+        display: table;
+        float: left;
+    }
+
+    .df1-menu a{
+        padding: 0 16px 0 16px;
+        font-size: 16px; 
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 28px;
+        font-weight: 500;
+        position: relative;
+        line-height: 24px;
+    }
+
+    .df1-menu a:first-child{
+        margin-left: 34px;
+    }
+
+    .df1-menu a:hover{
+        color: #996aff;
+    }
+
+    .df1-menu a:before{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #712FFF;
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        transition: all 0.2s ease-out;
+        transform: scale(0, 1);
+    }
+
+    .df1-menu a:hover:before{
+        transform: scale(1, 1);
+    }
+
+    .df1-login a{
+        display: inline-block;
+        position: absolute;
+        right: 108px;
+        top: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .df1-login a:first-child{
+        right: 219px;
+        top: 28px;
+        padding: 0 16px 0 16px;
+    }
+
+    .df1-login a:hover{
+        color: #996aff;
+    }
+
+    .df1-login a:first-child:before{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #712FFF;
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        transition: all 0.2s ease-out;
+        transform: scale(0, 1);
+    }
+
+    .df1-login a:hover:before{
+        transform: scale(1, 1);
+    }
+
+
+    #df1-btn-singup{
+        display: block;
+        color: #383A47;
+        padding: 10px 18px 10px 18px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        transition: all .2s ease-in-out;
+        z-index: 5000;
+    }
+
+    #df1-btn-singup:hover{
+        background-color: #712FFF;
+        color:#FFFFFF;
+    }
+    
+   
+
+    /*---------SECTION 1---------*/  
+        
+    .df1-display-text{
+        width: 489px;
+        display: table;
+        margin: 252px 0 0 112px;
+        font-size: 44px;
+        line-height: 60px;
+        background-color: red;
+     }
+
+     .df1-text-subtittle{
+        font-size: 20px;
+    }
+
+    .df1-appStore{
+        width: 178px;
+        height: 60px;
+        display: inline-block;
+
+    }
+
+    .df1-playStore{
+        width: 178px;
+        height: 60px;
+        display: inline-block;
+        margin-left: 15px;
+       
+    }
 
     .df1-card{
         display: flex;
@@ -87,6 +367,10 @@
         position: relative;
     }
 
+
+    .df1-image-cards{
+        display: none;
+    }
 
     .df1-visacard{
         width: 343px;
@@ -196,19 +480,62 @@
 
     .df1-center-text{
         margin-top: 252px;
+        display: flex;
+        justify-content: center;
+        
     }
     
     .df1-logos-center{
+        width: 1440px;
         display: flex;
         justify-content: space-around;
+        margin: 0;
         margin-top: 32px;
     }
+
+
+    #df1-Stripe{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    #df1-Orfium{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
     
+    #df1-Kinstae{
+        width: auto;
+        height: auto;
+    }
+
+    #df1-Bankable{
+        width: auto;
+        height: auto;
+        margin: 0;
+        
+    }
+    
+    #df1-Nowsports{
+        width: auto;
+        height: auto;
+       margin: 0;
+    }
+
+
     /*--------SECTION 2--------*/
+
+
+    .dfi-align-tittle{
+        width: 708px;
+        margin-left: 365px;
+    }               
 
     .df1-tittle-section2{
         margin-top: 153px;
-        justify-content: space-around;
+        font-size: 43px;
     }
     
     .df1-span-section{
@@ -291,7 +618,12 @@
         align-items: center;
         justify-content: space-around;
         z-index: 600;
-    
+    }
+
+    .df1-btn:hover{
+        background-color: #7f56d9;
+        color: #E7E7E7;
+        transform: translateX(5px);
     }
 
     .df1-card-container{
@@ -325,106 +657,8 @@
         padding-left: 200px;
         padding-right: 240px;
     }
-
-}
-
-@media screen and (min-width: 992px){
-    .df1-menu{
-        display: table;
-        float: left;
-     
-    }
-
-    .df1-menu a{
-        padding: 0 16px 0 16px;
-        font-size: 16px;
-        color: #FFFFFF;
-        text-decoration: none;
-        display: inline-block;
-        margin-top: 28px;
-        font-weight: 500;
-        position: relative;
-        line-height: 24px;
-    }
-
-    .df1-menu a:first-child{
-        margin-left: 34px;
-    }
-
-    .df1-menu a:hover{
-        color: #996aff;
-    }
-
-    .df1-menu a:before{
-        content: '';
-        width: 100%;
-        height: 4px;
-        background-color: #712FFF;
-        display: block;
-        position: absolute;
-        bottom: -15px;
-        left: 0;
-        transition: all 0.2s ease-out;
-        transform: scale(0, 1);
-    }
-
-    .df1-menu a:hover:before{
-        transform: scale(1, 1);
-    }
-
-    .df1-login a{
-        display: inline-block;
-        position: absolute;
-        right: 108px;
-        top: 18px;
-        font-weight: 700;
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
-    .df1-login a:first-child{
-        right: 219px;
-        top: 28px;
-        padding: 0 16px 0 16px;
-    }
-
-    .df1-login a:hover{
-        color: #996aff;
-    }
-
-    .df1-login a:first-child:before{
-        content: '';
-        width: 100%;
-        height: 4px;
-        background-color: #712FFF;
-        display: block;
-        position: absolute;
-        bottom: -15px;
-        left: 0;
-        transition: all 0.2s ease-out;
-        transform: scale(0, 1);
-    }
-
-    .df1-login a:hover:before{
-        transform: scale(1, 1);
-    }
-
-
-    #df1-btn-singup{
-        display: block;
-        color: #383A47;
-        padding: 10px 18px 10px 18px;
-        border-radius: 8px;
-        background-color: #FFFFFF;
-        transition: all .2s ease-in-out;
-        z-index: 5000;
-    }
-
-    #df1-btn-singup:hover{
-        background-color: #712FFF;
-        color:#FFFFFF;
-    }
-
+   
+ 
 }
 
 
@@ -500,11 +734,6 @@
 
 .df1-text-bold{
     font-weight: 700;
-}
-
-.df1-tittle-big{
-    font-size: 44px;
-    line-height: 60px;
 }
 
 .df1-text-regular{
@@ -597,13 +826,9 @@
 
 /* CLASSES COMPORTAMENTO*/
 
+
 .df1-cursor-pointer{
     cursor: pointer;
-}
-
-.df1-flex-center{
-    display: flex;
-    justify-content: center;
 }
 
 .df1-is-open{

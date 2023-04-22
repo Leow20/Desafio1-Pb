@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
 
     <title>Desafio 1</title>
 </head>
@@ -17,29 +17,37 @@
 
     <header class="df1-topbar">
         <div class="df1-logo">
-            <img src="Images/Union.svg" alt="Logo Cadena">
+            <div class="df1-logo-white">
+                <img src="Images/Union.svg" alt="Logo Cadena">
+            </div>
+            <div class="df1-logo-black">
+                <img src="Images/LogoBlack.svg" alt="Logo Cadena">
+            </div>
         </div>
 
         <nav>
            <div class="df1-menu df1-text-sat">
-               <a href="#">Home</a>
-               <a href="#">Privacy</a>
-               <a href="#">Terms</a>
+               <a class="df1-text-white" href="#">Home</a>
+               <a class="df1-text-white" href="#">Privacy</a>
+               <a class="df1-text-white" href="#">Terms</a>
             </div>
             <div class="df1-menu-hamb df1-cursor-pointer">
                 <img src="Images/Menu.svg" alt="Menu Hamburguer">
             </div>
         </nav>
 
-        <div class="df1-login">
-            <a href="#">Log in</a>
-            <a href="#" id="df1-btn-singup">Sign Up</a>
+        <div class="df1-login df1-text-sat">
+           
+            <a class="df1-text-white" href="#">Log in</a>
+            <a class="df1-btn-singup" href="#" >Sign Up</a>
         </div>
+
+        <input onclick="turnMode()" type="checkbox" class="df1-switch" name="checkbox">
 
     </header>
 
     <main>
-    <div class="df1-page-wrapper df1-full-height">
+    <div class="df1-page-wrapper1 df1-full-height">
        
         <section class="df1-first-section"> 
             <div class="df1-text-regular df1-text-sat df1-display-text">
@@ -63,19 +71,22 @@
                 
             
             </div>
-            
+    
+    
+
             <div class="df1-card">
                 <img src="Images/image-completa.png" alt="Cartões e lista de pagamento">
             </div> 
             
         </section>
+    
         
         <div class="df1-image-cards">
            <img src="Images/image.png" alt="Cartões / Lista">
        </div>
         
        
-            <p class="df1-text-sat df1-text-regular df1-text-size-15 df1-text-softgray df1-center-text">Trusted by 3000+ partners & customers</p>
+            <p class="df1-text-sat df1-text-regular df1-text-size-15 df1-center-text">Trusted by 3000+ partners & customers</p>
                 <div class="df1-logos-center df1-cursor-pointer">
                     <img id="df1-Stripe" src="Images/Vector.svg" alt="Stripe Logo">
                     <img id="df1-Orfium" src="Images/Vector-1.svg" alt="Orfium Logo">
@@ -83,8 +94,9 @@
                     <img id="df1-Nowsports" src="Images/Vector-4.svg" alt="Nowsports Logo">
                     <img id="df1-Bankable" src="Images/Vector-3.svg" alt="Bankable Logo">
                 </div>
-       
-            
+    </div>
+      
+    <div class="df1-page-wrapper2 df1-full-height">
         <section class="df1-second-section">
            <div class="df1-align-tittle">
                <h1 class="df1-text-sat df1-text-regular df1-text-white df1-tittle-section2">
@@ -101,7 +113,7 @@
                         <p class="df1-text-grid">
                             Use your digital card for online purchases, in-store<span class="df1-text-purple df1-span-section"> purchases</span>,  and more
                         </p>
-                        <div class="df1-align-images-grid">
+                        <div class="df1-align-images-grid df1-pad-top-15">
                               <img src="Images/cardGrid.png" alt="Cartão">
                         </div>
                     </div>
@@ -129,8 +141,7 @@
                         <p class="df1-text-grid">
                             Manage your digital card and transactions easily through our<span class="df1-text-purple df1-span-section"> user-friendly</span> app.
                         </p>
-                            
-                       
+ 
                   </div>
 
                   <div class="df1-box1">

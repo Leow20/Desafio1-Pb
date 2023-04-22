@@ -4,10 +4,17 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: all .2s  ease-in-out;
 }
 
-@media screen and (min-width: 320px){
-    .df1-page-wrapper{
+
+@media screen and (min-width: 0px){
+    body, html{
+        width: 375px;
+        height: 100vh;
+    }
+
+    .df1-page-wrapper1, .df1-page-wrapper2{
         width: 375px;
         height: 100vh;
         display: table;
@@ -33,6 +40,10 @@
         cursor: pointer;
     }
    
+    .df1-logo-black{    
+        display: none;
+    }
+
     .df1-menu{
         display: none;
     } 
@@ -67,6 +78,7 @@
 
         #df1-text-size{
             font-size: 32px;
+            line-height: 43px;
         }
 
         .df1-box-refer{
@@ -127,6 +139,7 @@
         .df1-text-subtittle{
             margin-top: 16px;
             font-size: 16px;
+            line-height: 30px;
         }
 
         .df1-card{
@@ -146,6 +159,7 @@
         display: flex;
         justify-content: star;
         margin: 0 53px;
+        color: #E7E7E7;
     }
         
     .df1-logos-center{
@@ -209,6 +223,7 @@
         margin-left: 20px;
         margin-right: 20px;
         flex-wrap: wrap;
+        color: #E7E7E7;
     }
 
     .df1-horGrid{
@@ -225,7 +240,7 @@
         margin-bottom: 28px;
         border-radius: 24px;
         background-color: #1B1C20;
-
+        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
     }
 
     .df1-box2{
@@ -236,6 +251,7 @@
         background-color: #1B1C20;
         margin-top: 0px;
         padding-top: 1px;
+        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
     }
 
     .df1-text-grid{
@@ -244,7 +260,7 @@
         font-family: 'Satoshi', sans-serif;
         font-size: 16px;
         text-align: center;
-        color: #E7E7E7;
+       
         margin-left: 30px;
         padding-top: 20px;
         justify-content: space-around;
@@ -383,6 +399,7 @@
     }
  
     /*---------TOPBAR-----------*/
+   
     .df1-topbar{
         width: 1440px;
         height: 85px;
@@ -409,7 +426,6 @@
     .df1-menu a{
         padding: 0 16px 0 16px;
         font-size: 16px; 
-        color: #FFFFFF;
         text-decoration: none;
         display: inline-block;
         margin-top: 28px;
@@ -450,7 +466,6 @@
         top: 18px;
         font-weight: 700;
         text-decoration: none;
-        color: #FFFFFF;
     }
 
     .df1-login a:first-child{
@@ -481,7 +496,7 @@
     }
 
 
-    #df1-btn-singup{
+    .df1-btn-singup{
         display: block;
         color: #383A47;
         padding: 10px 18px 10px 18px;
@@ -491,7 +506,7 @@
         z-index: 5000;
     }
 
-    #df1-btn-singup:hover{
+    .df1-btn-singup:hover{
         background-color: #712FFF;
         color:#FFFFFF;
     }
@@ -499,6 +514,11 @@
    
 
     /*---------SECTION 1---------*/  
+    
+    #df1-text-size{
+        font-size: 44px;
+        line-height: 59px;
+    }
         
     .df1-display-text{
         width: 489px;
@@ -659,6 +679,7 @@
         justify-content: space-around;
         margin: 0;
         margin-top: 32px;
+        margin-bottom: 57px;
         padding-top: 0;
     }
 
@@ -778,7 +799,7 @@
     .df1-card-container{
        display: block;
         position: absolute;
-        top: 0;
+        top: -1px;
         z-index: 100;
     }
     
@@ -827,12 +848,10 @@
 
 /*BOTÕES*/
 
-
-
 .df1-image-setinha{
     width: 7px;
     height: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
     margin-left: 10px;
 }
 
@@ -915,6 +934,7 @@
 }
 
 
+/*-----CORES DE TEXTO------*/
 
 .df1-text-white{
     color: #FFFFFF;
@@ -936,6 +956,58 @@
     color: #B8B8B8;
 }
 
+.df1-text-383A47{
+    color: #383A47;
+}
+
+.df1-text-black{
+    color: #1B1C20;
+}
+
+.df1-text-060809{
+    color: #060809;
+}
+
+/*----CORES BACKGROUD------*/
+
+.df1-backGround-color-white{
+   background-color: #FFFFFF;
+}
+
+.df1-backGround-color-purple{
+   background-color: #712FFF;
+}
+
+.df1-backGround-color-gray{
+   background-color: #797B89;
+}
+
+.df1-backGround-color-softgray{
+   background-color: #e7e7e7;
+}
+
+.df1-backGround-color-gray2{
+   background-color: #B8B8B8;
+}
+
+.df1-backGround-color-383A47{
+   background-color: #383A47;
+}
+
+.df1-backGround-color-black{
+   background-color: #1B1C20;
+}
+
+.df1-backGround-color-060809{
+   background-color: #060809;
+}
+
+.df1-backGround-color-FAF8F5{
+    background-color: #FAF8F5;
+}
+
+
+
 .df1-tittle-grid {
     font-weight: 400;
     font-family: 'Satoshi', sans-serif;
@@ -943,11 +1015,6 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 40px;
-}
-
-
-.df1-text-black{
-    color: #1B1C20;
 }
 
 .df1-text-light{

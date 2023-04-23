@@ -21,6 +21,9 @@
         background-color: #060809;
     }
 
+
+    /*------TOPBAR-------*/
+
     .df1-topbar{
         width: 375px;
         height: 58px;
@@ -59,8 +62,8 @@
         background-color: #707070;
         border-radius: 50px;
         position: absolute;
-        right: 320px;
-        top: 31px;
+        right: 60px;
+        top: 20px;
         cursor: pointer;
         transition: .3s;
       }
@@ -82,11 +85,8 @@
         background: #000;
         left: 20px;
       }
-    
 
-      
-
-    .df1-menu-hamb-dark,  .df1-menu-hamb-light{
+    .df1-menu-hamb-dark{
         display: inline-block;
         position: absolute;
         right: 20px;
@@ -96,9 +96,6 @@
         color: #FFFFFF;
     }
 
-    .df1-menu-hamb-light{
-        display: none;
-    }
 
         /*---------SECTION 1------*/
             
@@ -468,7 +465,7 @@
         cursor: pointer;
     }
   
-    .df1-menu-hamb-dark, .df1-menu-hamb-light{
+    .df1-menu-hamb-dark{
         display: none;   
     }
 
@@ -511,6 +508,11 @@
 
     .df1-menu a:hover:before{
         transform: scale(1, 1);
+    }
+
+    .df1-switch {
+        right: 320px;
+        top: 31px;
     }
 
     .df1-login a{

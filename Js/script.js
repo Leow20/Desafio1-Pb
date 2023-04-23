@@ -33,7 +33,6 @@ function turnMode(){
             if (this.checked) {
             
             //LIGTH
-            
                 //Texto 
                    for(i = 0; lightMode_text.length > i; i++){
                     lightMode_text[i].style.color = "#1B1C20";

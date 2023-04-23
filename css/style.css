@@ -8,7 +8,7 @@
 }
 
 
-@media screen and (min-width: 0px){
+@media screen and (min-width: 300px){
     body, html{
         width: 375px;
         height: 100vh;
@@ -52,14 +52,18 @@
         display: none;
     }   
 
-    .df1-menu-hamb{
+    .df1-menu-hamb-dark,  .df1-menu-hamb-light{
         display: inline-block;
         position: absolute;
         right: 20px;
-        top: 18px;
+        top: 22px;
         font-weight: 700;
         text-decoration: none;
         color: #FFFFFF;
+    }
+
+    .df1-menu-hamb-light{
+        display: none;
     }
 
         /*---------SECTION 1------*/
@@ -359,11 +363,16 @@
         ;
     }
     
-    .df1-cadena-footer{
+    .df1-cadena-footer-dark,  .df1-cadena-footer-light{
        position: absolute;
        top: 40px;
        left: 120px;
     }
+
+    .df1-cadena-footer-light{
+        display: none;
+    }
+
 
     .df1-line{
         width: 335px;
@@ -374,11 +383,22 @@
         left: 20px;
      }
 
-    .df1-icons-footer{
+
+
+    .df1-icons-footer-dark, .df1-icons-footer-light{
         position: absolute;
         bottom: 114px;
-        left: 127px;
+        left: 25px;
     }
+
+    .df1-icons-footer-light, .df1-social-desktop{
+        display: none;
+    }
+
+    .df1-social-mobile{
+        display: block;
+    }
+    
 
     .df1-text-footer{
         width: 303px;
@@ -414,7 +434,7 @@
         cursor: pointer;
     }
   
-    .df1-menu-hamb{
+    .df1-menu-hamb-dark, .df1-menu-hamb-light{
         display: none;   
     }
 
@@ -818,16 +838,25 @@
         position: relative;
     }
 
-    .df1-icons-footer{
+    .df1-icons-footer-dark, .df1-icons-footer-light{
         position: absolute;
         top: 54px;
         left: 112px;
     }
+    
 
-    .df1-cadena-footer{
+    .df1-cadena-footer-dark, .df1-cadena-footer-light{
         position: absolute;
         bottom: 48px;
         left: 639px;
+    }
+
+    .df1-social-desktop{
+        display: block;
+    }
+
+    .df1-social-mobile{
+        display: none;
     }
 
     .df1-text-footer{
@@ -848,11 +877,15 @@
 
 /*BOTÕES*/
 
-.df1-image-setinha{
+.df1-image-setinha-white, .df1-image-setinha-black{
     width: 7px;
     height: 12px;
     margin-bottom: 8px;
     margin-left: 10px;
+}
+
+.df1-image-setinha-black{
+    display: none;
 }
 
 
